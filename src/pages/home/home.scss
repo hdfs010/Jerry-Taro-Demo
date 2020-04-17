@@ -1,0 +1,31 @@
+/* pages/home/home.wxss */
+.newest-title{
+  width: 100%;
+  padding:30px 0;
+  height: 40px;
+  color: #AB956D;
+  text-align: center;
+}
+.newest-box{
+  padding:0 40px;
+}
+.newest-box .newest-list{
+  display: inline-block;
+  width: 325px;
+  height: 325px;
+  margin:0 20px 20px 0;
+  border-radius: 20px;
+  text-align: center;
+  background: #f5f6f5;
+}
+.newest-box .newest-list:nth-child(2n){
+  margin-right: 0;
+}
+.newest-box .newest-list image{
+  width: 175px;
+  height: 175px;
+  margin: 20px 0 10px;
+}
+.newest-box .newest-list .newest-text{
+  font-size: 32px;
+}
